@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Paschal Okafor</title>
+    <link rel="stylesheet" href="./css/utils.css" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <script defer src="./js/lib.js"></script>
+    <script defer src="./js/index.js"></script>
+  </head>
+  <body>
+    <div class="card elevation">
+      <div class="card-media">
+        <img
+          src="./assets/slack-profile-pic.jpeg"
+          alt="PaschalPM"
+          data-testid="slackDisplayImage"
+        />
+      </div>
+      <div class="card-content">
+        <div class="name" data-testid="slackUserName">PaschalPM</div>
+        <div
+          class="day-of-week"
+          data-testid="currentDayOfTheWeek"
+          id="currentDayOfTheWeek"
+        ></div>
+        <div class="utc-time">
+          UTC Time:
+          <span data-testid="currentUTCTime" id="currentUTCTime"></span>
+        </div>
+        <div class="track">
+          Track: <span data-testid="myTrack"> Frontend </span>
+        </div>
+      </div>
+      <div class="card-action">
+        <a
+          data-testid="githubURL"
+          href="https://github.com/PaschalPM/hng-frontend_task1"
+          >GitHub Repository</a
+        >
+      </div>
+    </div>
+  </body>
+</html>
